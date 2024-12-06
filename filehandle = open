@@ -1,8 +1,0 @@
-# get data to store in file
-question = input ("Choose coreect answer a, b, c, d: ")
-# create file handle and open the file named testFile.txt, for writing
-filehandle = open("testFile.txt",'w')
-# write to the file
-filehandle.write(question)
-# close the file
-filehandle.close()
